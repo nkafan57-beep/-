@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // توكن البوت من متغيرات البيئة
-const BOT_TOKEN = process.env.TOKEN;
+const TOKEN = process.env.TOKEN;
 
 const client = new Client({ 
     intents: [
@@ -1630,4 +1630,4 @@ app.listen(3000, '0.0.0.0', () => {
     console.log('Web server is running on port 3000');
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
