@@ -1,3 +1,4 @@
+
 {
   "name": "nodejs",
   "version": "1.0.0",
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^22.13.11",
     "@discordjs/voice": "^0.16.1",
     "discord.js": "^14.21.0",
     "express": "^5.1.0"
